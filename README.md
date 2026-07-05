@@ -65,13 +65,25 @@ http://localhost/student_management_system/
 
 ## Screenshots
 
-You can add screenshots of:
+### Login Page
 
-- Login Page
-- Dashboard
-- Student List
-- Add Student
-- Edit Student
+![Login Page](screenshots/login.png)
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Student List
+
+![Student List](screenshots/students.png)
+
+### Add Student
+
+![Add Student](screenshots/add_student.png)
+
+### Edit Student
+
+![Edit Student](screenshots/edit_student.png)
 
 ## Author
 
