@@ -67,23 +67,23 @@ http://localhost/student_management_system/
 
 ### Login Page
 
-![Login Page](screenshots/login.png)
+![Login Page](login.png)
 
 ### Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](dashboard.png)
 
 ### Student List
 
-![Student List](screenshots/students.png)
+![Student List](students.png)
 
 ### Add Student
 
-![Add Student](screenshots/add_student.png)
+![Add Student](add_student.png)
 
 ### Edit Student
 
-![Edit Student](screenshots/edit_student.png)
+![Edit Student](edit_student.png)
 
 ## Author
 
