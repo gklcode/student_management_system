@@ -22,20 +22,20 @@ if(!isset($_SESSION['admin']))
     <head>
         <title>Student Management System</title>
 
-        <div class="text-end mb-3">
-            <a href="logout.php" class="btn btn-danger">
-                logout
-            </a>
-        </div>
-
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
         rel="stylesheet">
     </head>
 
-    <body class="container mt-5">
-  <div class="card shadow p-4">
+    <body class="bg-light">
+    <div class="container py-4">
 
-        <h1 class="text-primary text-center">
+    <div class="text-end mb-3">
+            <a href="logout.php" class="btn btn-danger">
+                logout
+            </a>
+     </div>
+
+        <h1 class="text-primary text-center fw-bold display-6">
             STUDENT MANAGEMENT SYSTEM
         </h1>
 
@@ -43,7 +43,7 @@ if(!isset($_SESSION['admin']))
             A PHP & MySQL CRUD Application built by Gokul.
         </p>
 
-     <div class="card mb-3 border-primary">
+    <div class="card mb-3 border-primary">
         <div class="card-body text-center">
             <h5>Total Students</h5>
             <h1 class="text-primary">
@@ -76,12 +76,12 @@ if(!isset($_SESSION['admin']))
          <div  class="text-center mt-3">
 
             <a href="add_student.php"
-            class="btn btn-success me-2">
+            class="btn btn-success btn-lg me-2 mb-2">
             Add Student
             </a>
 
             <a href="view_students.php"
-              class="btn btn-primary">
+              class="btn btn-primary btn-lg mb-2">
               View Students
             </a>
          </div>
