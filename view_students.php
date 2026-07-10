@@ -29,10 +29,11 @@ $result = mysqli_query($conn, $query);
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
          rel="stylesheet">
     </head>
-    <body class="container mt-5">
+    <body class="container-fluid mt-3"> 
 
-        <h2 class="text-primary mb-3">STUDENTS LIST</h2>
+        <h2 class="text-primary text-center mb-3">STUDENTS LIST</h2>
 
+        <div class="d-flex gap-2 mb-3">
         <a href="index.php" class="btn btn-secondary mb-3">
             Home
         </a>
@@ -40,6 +41,7 @@ $result = mysqli_query($conn, $query);
         <a href="add_student.php" class="btn btn-success mb-3">
             Add Student
         </a>
+       </div>
         
         <div class="card mb-3">
             <div class="card-body text-center">
@@ -90,6 +92,7 @@ $result = mysqli_query($conn, $query);
             }
         ?>
 
+        <div class="table-responsive">
         <table class="table table-bordered table-hover table-striped">
             
         <tr class="table-dark">
@@ -129,6 +132,7 @@ $result = mysqli_query($conn, $query);
         ?>
 
         </table>
+    </div>
 
         <hr>
     <p class="text-center text-muted">

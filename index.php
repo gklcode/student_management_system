@@ -20,6 +20,8 @@ if(!isset($_SESSION['admin']))
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Student Management System</title>
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -27,7 +29,7 @@ if(!isset($_SESSION['admin']))
     </head>
 
     <body class="bg-light">
-    <div class="container py-4">
+    <div class="container-fluid py-3 px-3">
 
     <div class="text-end mb-3">
             <a href="logout.php" class="btn btn-danger">
@@ -43,7 +45,7 @@ if(!isset($_SESSION['admin']))
             A PHP & MySQL CRUD Application built by Gokul.
         </p>
 
-    <div class="card mb-3 border-primary">
+    <div class="card mb-3 border-primary shadow-sm">
         <div class="card-body text-center">
             <h5>Total Students</h5>
             <h1 class="text-primary">
@@ -55,35 +57,39 @@ if(!isset($_SESSION['admin']))
 
         <hr>
 
-        <div class="row text-center">
-            <div class="col-md-4">
+        <div class="row text-center mt-4">
+            <div class="col-12 col-md-4 mb-4">
                 <h4>➕<h4>
                 <p>Add Students</p>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-12 col-md-4 mb-4">
                 <h4>🔍</h4>
                 <p>Search Students</p>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-12 col-md-4 mb-4">
                 <h4>✏️</h4>
                 <p>Manage Records</p>
             </div>
 
         </div>
 
-         <div  class="text-center mt-3">
-
+         <div  class="row mt-4">
+            
+           <div class="col-12 col-md-6 mb-2">
             <a href="add_student.php"
-            class="btn btn-success btn-lg me-2 mb-2">
+            class="btn btn-success w-100">
             Add Student
             </a>
+           </div>
 
+           <div class="col-12 col-md-6 mb-2">
             <a href="view_students.php"
-              class="btn btn-primary btn-lg mb-2">
+              class="btn btn-primary w-100">
               View Students
             </a>
+          </div>
          </div>
    </div>
 
