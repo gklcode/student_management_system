@@ -17,7 +17,7 @@ $row = mysqli_fetch_assoc($result);
 
     <body class="container mt-5">
         <div class="card shadow p-4">
-        <h2 class="text-primary text-center">EDIT STUDENTS</h2>
+        <h2 class="text-primary text-center">📝EDIT STUDENT</h2>
         <hr>
 
         <form action="update_student.php" method="POST">

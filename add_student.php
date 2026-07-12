@@ -10,7 +10,7 @@
 <div class="container py-4">
     <div class="card shadow p-4 mx-auto" style="max-width:700px;">
     <h2 class="text-primary text-center mb-4 fw-bold">
-        STUDENT FORM
+        🎓STUDENT FORM
     </h2>
     
     <form action="save_student.php" method="POST">
@@ -28,7 +28,7 @@
         <input type="text" name="course" class="form-control mb-3" placeholder="Enter course">
 
         <button type="submit" class="btn btn-primary w-100 mb-2">
-            Save Students
+            Save Student
         </button>
 
         <a href="index.php" class="btn btn-secondary w-100">

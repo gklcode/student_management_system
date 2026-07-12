@@ -32,7 +32,7 @@ $result = mysqli_query($conn, $query);
     </head>
     <body class="container-fluid mt-3"> 
 
-        <h2 class="text-primary text-center mb-3">STUDENTS LIST</h2>
+        <h2 class="text-primary text-center mb-3">📋STUDENTS LIST</h2>
 
         <div class="d-flex gap-2 mb-3">
         <a href="index.php" class="btn btn-secondary mb-3">

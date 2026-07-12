@@ -59,18 +59,18 @@ if(!isset($_SESSION['admin']))
 
         <div class="row text-center mt-4">
             <div class="col-12 col-md-4 mb-4">
-                <h4>➕<h4>
-                <p>Add Students</p>
+                <h4>✚<h4>
+                <p style="font-size: 18px; font-weight: normal; margin: 0;">Add Students</p>
             </div>
 
             <div class="col-12 col-md-4 mb-4">
                 <h4>🔍</h4>
-                <p>Search Students</p>
+                <p style="font-size: 18px; font-weight: normal; margin: 0;">Search Students</p>
             </div>
 
             <div class="col-12 col-md-4 mb-4">
                 <h4>✏️</h4>
-                <p>Manage Records</p>
+                <p style="font-size: 18px; font-weight: normal; margin: 0;">Manage Records</p>
             </div>
 
         </div>
